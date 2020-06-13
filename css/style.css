@@ -1,0 +1,29 @@
+body {
+    /*Padronização das fontes do site*/
+    font: 20px Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #0066ff;
+}
+
+.quem-somos {
+    background-color: blue;
+    color: whitesmoke;
+}
+
+.margin {
+    /*Adiciona uma margem interna ao elemento*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.parceiros {
+    background-color: teal;
+    color: whitesmoke;
+}
+
+.bg-footer {
+    background-color: tomato;
+    color: whitesmoke;
+}

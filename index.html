@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página do Pedro</title>
+
+        <!--Importando o Bootstrap no Código HTML-->
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" width="80px">
+            </a>
+    
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quemsomos">Quem somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#parceiros">Parceiros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Serviços</a>
+                    </li>
+                </ul>
+            </div>
+    
+        </nav>
+
+        <section id="quemsomos">
+            <!--O container-fluid permite que a section atinja a tela inteira da página (apenas no bootstrap)-->
+            <!--O atributo text-center centraliza o texto-->
+            <div class="container-fluid quem-somos text-center margin">
+                <h3 class="margin">Quem somos?</h3>
+                <img src="img/paisagem.jpg" class="rounded-circle" width="400" height="400">
+                <h3>Somos um time comprometido com os resutados</h3>
+            </div>
+        </section>
+
+        <section id="parceiros">
+            <div class="containe-fluid text-center margin parceiros">
+                <h3 class="margin">Parceiros</h3>
+
+                <!--Divisão da página em 3 colunas com o bootstrap-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="img/dark.jpg" class="rounded-circle" width="100" height="100">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/arvore.jpg" class="rounded-circle" width="100" height="100">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/japao.jpg" class="rounded-circle" width="100" height="100">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="servicos">
+            <div class="container-fluid text-center margin servicos">
+                <h3 class="margin">Serviços</h3>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img src="img/cerebro.png" width="100%">
+                            <p>Machine Learning</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="img/dark.jpg" width="100%">
+                            <p>Brasil Império</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="container-fluid text-center bg-footer margin">
+            <p>Desenvolvido por Pedro Costa</p>
+        </footer>
+
+    </body>
+
+</html>
